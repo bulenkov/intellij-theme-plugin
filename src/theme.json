@@ -1,0 +1,31 @@
+{
+  "name": "Stalker",
+  "dark": true,
+  "author": "Konstantin Bulenkov",
+
+  "editorScheme": "/editorScheme.xml",
+
+  "ui": {
+    "*": {
+      "background": "#000000"
+    },
+    "Label": {
+      "foreground": "#aaaaaa"
+    },
+    "CheckBox": {
+      "foreground": "#990000"
+    }
+  },
+
+  "background": {
+    "image": "/background.jpg",
+    "transparency": 10,
+    "fill": "scale",
+    "anchor": "center"
+  },
+
+  "icons": {
+    "/actions/compile.svg": "/icons/compile.svg",
+    "/actions/commit.svg": "/icons/commit.svg"
+  }
+}

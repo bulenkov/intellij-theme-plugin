@@ -1,0 +1,15 @@
+<scheme name="Stalker" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="GUTTER_BACKGROUND" value="0" />
+    <option name="SEPARATOR_BELOW_COLOR" value="222325" />
+  </colors>
+  <attributes>
+    <option name="TEXT">
+      <value>
+        <option name="FOREGROUND" value="a9b7c6" />
+        <option name="BACKGROUND" value="0" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+  </attributes>
+</scheme>
