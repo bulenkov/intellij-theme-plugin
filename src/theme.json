@@ -29,6 +29,9 @@
   },
 
   "icons": {
+    "foo.bar.plugin": {
+      "/nodes/class.svg": "/icons/class.svg"
+    },
     "/actions/compile.svg": "/icons/compile.svg",
     "/actions/commit.svg": "/icons/commit.svg"
   }
