@@ -14,7 +14,11 @@
     },
     "CheckBox": {
       "foreground": "#990000"
-    }
+    },
+    "SidePanel.background": "#222222",
+    "SearchMatch.startColor": "#FFD103",
+    "SearchMatch.endColor": "#DDAF03",
+    "SearchMatch.transparency": 70
   },
 
   "background": {
