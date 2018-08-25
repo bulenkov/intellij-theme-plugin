@@ -12,9 +12,6 @@
     "Label": {
       "foreground": "#aaaaaa"
     },
-    "CheckBox": {
-      "foreground": "#990000"
-    },
     "SidePanel.background": "#222222",
     "SearchMatch.startColor": "#FFD103",
     "SearchMatch.endColor": "#DDAF03",
@@ -29,10 +26,9 @@
   },
 
   "icons": {
-    "foo.bar.plugin": {
-      "/nodes/class.svg": "/icons/class.svg"
-    },
-    "/actions/compile.svg": "/icons/compile.svg",
-    "/actions/commit.svg": "/icons/commit.svg"
+    "ColorPalette": {
+      "Action.Green.Dark": "#FF365D",
+      "Action.Grey.Dark": "#C0C2C4"
+    }
   }
 }
