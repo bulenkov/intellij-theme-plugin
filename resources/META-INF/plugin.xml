@@ -1,25 +1,20 @@
 <idea-plugin>
   <id>intellij.theme.sample.plugin</id>
-  <name>IntelliJ Theme Sample Plugin</name>
+  <name>IntelliJ Sample Theme</name>
   <version>1.0</version>
   <vendor email="kb@jetbrains.com" url="http://www.jetbrains.com">JetBrains</vendor>
 
-  <description><![CDATA[
-      Enter short description for your plugin here.<br>
-      <em>most HTML tags may be used</em>
-    ]]></description>
+  <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</description>
 
-  <change-notes><![CDATA[
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>
-    ]]>
-  </change-notes>
+  <change-notes>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</change-notes>
 
   <idea-version since-build="183.0"/>
 
   <depends>com.intellij.modules.lang</depends>
 
   <extensions defaultExtensionNs="com.intellij">
-      <themeProvider id="stalker.theme" path="/theme.json"/>
+      <themeProvider id="demo.theme" path="/theme.json"/>
   </extensions>
 </idea-plugin>

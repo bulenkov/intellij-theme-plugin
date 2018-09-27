@@ -1,5 +1,5 @@
 {
-  "name": "Stalker",
+  "name": "Demo",
   "dark": true,
   "author": "Konstantin Bulenkov",
 
@@ -15,7 +15,17 @@
     "SidePanel.background": "#222222",
     "SearchMatch.startColor": "#FFD103",
     "SearchMatch.endColor": "#DDAF03",
-    "SearchMatch.transparency": 70
+    "SearchMatch.transparency": 70,
+
+    "WelcomeScreen": {
+      "background": "#000000",
+      "Separator.color": "#000000",
+      "Projects": {
+        "background": "#080808",
+        "selectionBackground": "#888888",
+        "selectionInactiveBackground": "#444444"
+      }
+    }
   },
 
   "background": {
@@ -26,12 +36,9 @@
   },
 
   "icons": {
+    "/com/intellij/ide/ui/laf/icons/darcula/checkBox_dark.svg" : "/icons/checkBox.svg",
     "ColorPalette": {
-      "Actions.Green": "#FF365D",
-      "Actions.Grey": "#FFFFFF",
-      "Objects.Blue": "#0C76FF",
-      "Objects.Grey": "#EA8E2C",
-      "Objects.Red": "#ff0000"
+      "Actions.Green": "#FF365D"
     }
   }
 }
